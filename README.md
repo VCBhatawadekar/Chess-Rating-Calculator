@@ -19,8 +19,7 @@ Now,
   P(L) = 1 - P(W) 
   P(D) = 0.5(P(W))-P(L))
   
-The constant used in above formula k1,k2 were selected according such that k1 = Euler's Number. This can be further Simplified by taking k1 = 10 and k2 = 1/400.
-There are infinite number of pairs of k1,k2 that satisfy the requirements. Once probabilities are calculated change in ratings is proportional to them.
+The constant used in above formula k1,k2 were selected according such that k1 = 10 for simplicity.There are infinite number of pairs of k1,k2 that satisfy the requirements. Once probabilities are calculated change in ratings is proportional to them.
 Here, I have used Kfactor variable to simulate the K factor known as development factor. This can be thought of as a proportionality constant. 
 After some analysis it was found that it has 
   limiting condition = 0.92Kfactor ( for decisive game )
